@@ -17,6 +17,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
+import { ArchivedResumeComponent } from './archived-resume/archived-resume.component';
 
 
 
@@ -26,7 +27,8 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     ResumeComponent,
     AboutMeComponent,
-    ContactComponent
+    ContactComponent,
+    ArchivedResumeComponent
   ],
   imports: [
     BrowserModule,
