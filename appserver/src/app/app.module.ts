@@ -18,6 +18,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
 import { ArchivedResumeComponent } from './archived-resume/archived-resume.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 
 
@@ -28,7 +29,8 @@ import { ArchivedResumeComponent } from './archived-resume/archived-resume.compo
     ResumeComponent,
     AboutMeComponent,
     ContactComponent,
-    ArchivedResumeComponent
+    ArchivedResumeComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
