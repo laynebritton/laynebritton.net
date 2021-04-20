@@ -19,6 +19,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
 import { ArchivedResumeComponent } from './archived-resume/archived-resume.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { DogsComponent } from './dogs/dogs.component';
 
 
 
@@ -30,7 +31,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     AboutMeComponent,
     ContactComponent,
     ArchivedResumeComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    DogsComponent
   ],
   imports: [
     BrowserModule,
